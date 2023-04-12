@@ -12,6 +12,8 @@ import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
 
+     private WebView myWebView;
+
     public void showExternalWebPage(){
         // TODO: Add your code for showing external web page here
     }
@@ -27,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        WebView myWebView = findViewById(R.id.my_webview);
-        myWebView.loadUrl("http://www.his.se");
+        myWebView = (WebView) findViewById(R.id.my_webview);
+        myWebView.loadUrl("https://www.his.se");
         /*
         * Rename your App. Tip: Values->Strings
         * Enable Internet access for your App. Tip: Manifest
