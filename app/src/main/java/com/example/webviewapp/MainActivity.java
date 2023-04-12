@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         myWebView = (WebView) findViewById(R.id.my_webview);
         myWebView.loadUrl("https://www.his.se");
-        /*
+        /*m
         * Rename your App. Tip: Values->Strings
         * Enable Internet access for your App. Tip: Manifest
         * Create a WebView element in the layout file main_activity.xml
