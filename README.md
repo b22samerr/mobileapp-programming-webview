@@ -18,5 +18,6 @@ private WebView myWebView;
 
 Bilder läggs i samma mapp som markdown-filen.
 
+
 ![](Screenshot2.png)
 
