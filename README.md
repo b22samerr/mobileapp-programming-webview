@@ -15,7 +15,7 @@ private WebView myWebView;
 
 ```
 
-Bilder läggs i samma mapp som markdown-filen.
+Bilderna nedan visar de interna och externa länkarna.
 
 ![](Screenshot2.png)
 ![](Screenshot3.png)
